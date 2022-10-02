@@ -1,0 +1,73 @@
+*{
+   box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    background-color: #f9fafc;
+    margin-left:40px ;
+}
+.title, h1{
+    color:#000 ;
+}
+.nav-links{
+    color: #69696a;
+    display:inline-block;
+    width: 80px;
+  
+}
+/* challenge spreading out the top nav links from eachother */
+.nav-links,a{
+       margin:8px 5px; 
+} 
+.textContent{
+    color: #69696a;
+    padding-left: 8px;
+    border-left: 3px solid #69696a;
+    /* width:80%; */
+    margin-right: 20%;
+
+}
+
+a{
+    text-decoration: none;
+    color: #69696a;
+}
+button{
+    color:#fff;
+    background-color: #000;
+    align-items: center;
+    border-radius: 20px;
+    width: 80%;
+    margin: left 30px;;
+}
+footer{
+   background-color:rgba(247, 193, 162, 0.7) ;
+    position:fixed;
+    width: 100%;
+    /* display: inline; */
+    /* align-items: baseline; */
+    /* height:40x; */
+    padding-left: 20px;
+    bottom:5px;
+    left: 0px;
+
+}
+.chirpusTag{
+    display: inline;
+    float:left;
+    margin: left 8px;
+}
+.footerLinks{
+    display: inline;
+    float:right;
+    margin: 20px;
+    padding:0px,50px;
+  
+    /* justify-content:space-between; */
+
+    
+    
+    /* padding-left:350px; */
+
+    /* justify-items: flex-end; */
+}
